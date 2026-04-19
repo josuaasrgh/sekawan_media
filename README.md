@@ -59,21 +59,21 @@ MobileApp/
 - Search/filter realtime
 - Loading state & error state dengan tombol retry
 - Pull-style refresh (klik retry)
-
+![alt text](image-2.png)
 ### Halaman Detail Data
 - Fetch detail post by ID
 - Fetch author info (dari `/users/:id`)
 - Fetch comments (dari `/posts/:id/comments`)
 - Statistik: jumlah comment, tipe, author ID
 - Animasi fade-in saat masuk
-
+![alt text](image-1.png)
 ### Halaman Profile
 - Data lengkap Josua Lens Franklin Saragih
 - Skills dengan chip berwarna per kategori
 - Link GitHub & LinkedIn (klik langsung buka)
 - Stats: Projects, Languages, Skills
 
-![alt text](image.png)
+
 ---
 
 ## 🔧 Tech Stack
