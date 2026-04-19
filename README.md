@@ -4,7 +4,7 @@ Sekawan Media Mobile Developer Test
 
 ---
 
-## 🚀 Cara Menjalankan (Super Simple!)
+## 🚀 Cara Menjalankan 
 
 ```bash
 # 1. Masuk ke folder project
@@ -73,6 +73,7 @@ MobileApp/
 - Link GitHub & LinkedIn (klik langsung buka)
 - Stats: Projects, Languages, Skills
 
+![alt text](image.png)
 ---
 
 ## 🔧 Tech Stack
