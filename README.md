@@ -19,7 +19,7 @@ npm run dev
 # 4. Buka browser → http://localhost:5173
 ```
 
-**Tidak perlu Expo. Tidak perlu emulator. Cukup browser!**
+
 
 ---
 
@@ -31,22 +31,22 @@ MobileApp/
 ├── vite.config.js
 ├── package.json
 └── src/
-    ├── main.jsx                  # Entry point
-    ├── App.jsx                   # Root + navigation state
+    ├── main.jsx                 
+    ├── App.jsx                   
     ├── theme/
-    │   └── global.css            # Semua styling (mobile-first)
+    │   └── global.css            
     ├── components/
-    │   ├── StatusBarUI.jsx       # Status bar atas
-    │   ├── TabBar.jsx            # Bottom navigation tab
-    │   ├── PostCard.jsx          # Card post reusable
-    │   ├── LoadingSpinner.jsx    # Loading indicator
-    │   └── ErrorView.jsx         # Error state + retry
+    │   ├── StatusBarUI.jsx       
+    │   ├── TabBar.jsx            
+    │   ├── PostCard.jsx          
+    │   ├── LoadingSpinner.jsx    
+    │   └── ErrorView.jsx         
     ├── pages/
-    │   ├── ListPage.jsx          # Halaman list post
-    │   ├── DetailPage.jsx        # Halaman detail post
-    │   └── ProfilePage.jsx       # Halaman profile
+    │   ├── ListPage.jsx          
+    │   ├── DetailPage.jsx        
+    │   └── ProfilePage.jsx       
     └── services/
-        └── api.js                # Semua API call ke JSONPlaceholder
+        └── api.js                
 ```
 
 ---
@@ -88,7 +88,7 @@ MobileApp/
 | CSS Variables | Theming & design system |
 | JSONPlaceholder | API data source |
 
-**Tidak ada library UI eksternal** — semua UI ditulis manual dengan CSS.
+
 
 ---
 
@@ -105,9 +105,6 @@ MobileApp/
 
 ```bash
 npm run build
-# Output ada di folder /dist
-# Bisa di-deploy ke Netlify, Vercel, dll.
-```
 
 ---
 
